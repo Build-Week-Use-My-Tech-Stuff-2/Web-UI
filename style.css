@@ -26,7 +26,6 @@ body {
 }
 
 ul {
-    float: right;
     list-style-type: none;
 }
 
@@ -61,9 +60,11 @@ h2 {
 }
 
 button {
+    box-sizing: border-box;
+    width: 300px;
     background-color: #484848;
     border: none;
-    color: #FF5A5F;
+    color: white;
     padding: 0.5vh 1vh;
     font-size: 2rem;
     margin: 0.5vh;
