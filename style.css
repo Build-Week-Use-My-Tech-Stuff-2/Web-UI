@@ -75,15 +75,24 @@ button:hover {
     opacity: 0.5;
 }
 
+#about {
+    max-width: 800px;
+    margin: auto;
+}
+
 .content {
     padding: 15px 100px;
     margin: 100px;
     font-family: 'Black Han Sans', sans-serif;
+    max-width: 900px;
+    margin: auto;
 }
 
 .content img {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+}
+
+#about img {
     width: 100%;
 }
 
@@ -123,5 +132,13 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+    .content img {
+        width: 100%;
+        max-width: 800px;
+    }
+    #about img {
+        width: 100%;
+        max-width: 800px;
     }
 }
