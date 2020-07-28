@@ -18,22 +18,24 @@
   <body>
     <div class="wrapper">
       <header class="page-header">
-        <h1 class="header">WareShare</h1>
-        <h2>We do it better</h2>
+        <div>
+          <h1 class="header" aria-level="1">WareShare</h1>
+          <h2>We do it better</h2>
+        </div>
         <ul>
           <li>
-            <a href="#"><button>Register</button></a>
+            <a href="#"><button aria-pressed="false">Sign in</button></a>
           </li>
           <li>
-            <a href="#"><button>Login</button></a>
-          </li>
-          <li>
-            <a href="#"><button>About</button></a>
+            <a href="#"><button aria-pressed="false">About</button></a>
           </li>
         </ul>
       </header>
       <main class="page-main">
-        <div class="content">
+        <div
+          class="content"
+          aria-label="Picture of headphones and laptop computer"
+        >
           <div class="topDeals">
             <h3>
               <span>T</span>
@@ -46,13 +48,20 @@
               <span>S</span>
             </h3>
           </div>
-          <img src="./media/techOne.jpg" />
+
+          <img src="./media/techOne.jpg" alt="headphones" />
         </div>
-        <div class="content">
-          <img src="./media/techThree.jpg" />
+        <div
+          class="content"
+          aria-label="Picture of apple iphone and laptop computer"
+        >
+          <img src="./media/techThree.jpg" alt="iphone" />
         </div>
-        <div class="content">
-          <img src="./media/techTwo.jpg" />
+        <div
+          class="content"
+          aria-label="a picture of a remote controlled drone"
+        >
+          <img src="./media/techTwo.jpg" alt="drone" />
         </div>
       </main>
       <footer class="page-footer">Add footer later</footer>
